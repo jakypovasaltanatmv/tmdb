@@ -12,6 +12,7 @@ import Actors from "../Actors";
 import Videos from "../Videos";
 import { IoCloseCircleSharp } from "react-icons/io5";
 import { MovieContext } from "../../context";
+import "../../assets/styles/movieDetails.scss";
 
 const MovieDetails = () => {
   let [details, setDetails] = useState({});
