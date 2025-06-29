@@ -1,0 +1,39 @@
+#Toprated {
+  margin-top: 40px;
+  font-family: sans-serif;
+  .Toprated {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    gap: 80px;
+    &--block {
+      position: relative;
+      width: 223px;
+      height: 430px;
+      border: 2px solid black;
+      box-shadow: 0px 3px 10px rgb(32, 27, 27);
+      border-radius: 5px;
+      &__text {
+        margin: 0 10px;
+        h2 {
+          font-size: 15px;
+          font-family: sans-serif;
+          margin: 10px 0;
+        }
+        h1 {
+          font-size: 12px;
+          font-weight: 200;
+          font-weight: 700;
+          color: rgba(0, 0, 0, 0.6);
+        }
+        h3 {
+          position: absolute;
+          bottom: 0;
+          right: 0;
+        }
+      }
+    }
+  }
+}

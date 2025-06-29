@@ -1,0 +1,32 @@
+#footer {
+  height: 280px;
+  background: #032541;
+  .footer {
+    margin-top: 60px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    font-family: sans-serif;
+    h1 {
+      font-size: 25px;
+      color: white;
+      margin-bottom: 20px;
+    }
+    p {
+      color: white;
+      line-height: 23px;
+    }
+    &--block1 {
+      display: flex;
+      align-items: end;
+      justify-content: end;
+      flex-direction: column;
+      gap: 50px;
+      button {
+        padding: 15px 70px;
+        border-radius: 8px;
+        border: none;
+      }
+    }
+  }
+}

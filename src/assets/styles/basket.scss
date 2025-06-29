@@ -1,0 +1,41 @@
+#basket {
+  margin-top: 40px;
+  .basket {
+    width: 90%;
+    height: 600px;
+    overflow-y: scroll;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 40px;
+    font-family: sans-serif;
+    &--block {
+      display: flex;
+      align-items: flex-start;
+      gap: 50px;
+      width: 90%;
+      height: 332px;
+      border: 2px solid black;
+      &__text {
+        position: relative;
+        margin-top: 10px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 20px;
+        h1 {
+          font-size: 19px;
+          font-weight: 300;
+        }
+        h5 {
+          position: absolute;
+          top: 0;
+          right: 10px;
+          font-size: 20px;
+          color: red;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
