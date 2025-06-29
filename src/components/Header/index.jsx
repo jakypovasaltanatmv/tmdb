@@ -2,7 +2,7 @@ import React, { useContext, useState } from "react";
 import logo from "../../assets/images/logo.svg";
 import { IoMdSearch } from "react-icons/io";
 import { CgDarkMode } from "react-icons/cg";
-
+import "../../assets/styles/Header.scss"
 import { NavLink, useNavigate } from "react-router-dom";
 import { MovieContext } from "../../context";
 

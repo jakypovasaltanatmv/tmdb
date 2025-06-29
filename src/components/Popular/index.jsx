@@ -6,6 +6,7 @@ import Box from "@mui/material/Box";
 import MovieCard from "../MovieCard";
 import { MovieContext } from "../../context";
 import loading from "../../assets/images/loading.svg";
+import "../../assets/styles/Popular.scss";
 
 const Popular = () => {
   let [data, setData] = useState([]);

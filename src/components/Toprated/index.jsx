@@ -4,6 +4,7 @@ import { api_key } from "../../assets/API";
 import MovieCard from "../MovieCard";
 import { MovieContext } from "../../context";
 import loading from "../../assets/images/loading.svg";
+import "../../assets/styles/Toprated.scss"
 
 const Toprated = () => {
   let [data, setData] = useState([]);

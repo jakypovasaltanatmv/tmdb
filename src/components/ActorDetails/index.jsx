@@ -3,6 +3,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { api_key } from "../../assets/API";
 import { useParams } from "react-router-dom";
 import { MovieContext } from "../../context";
+import "../../assets/styles/ActorDetails.scss";
 
 const ActorDetails = () => {
   const [actorDetails, setActorDetails] = useState({});

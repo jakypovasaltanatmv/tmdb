@@ -4,10 +4,11 @@ import { api_key } from "../../assets/API";
 import user from "../../assets/images/eptyUser.png";
 import { Link } from "react-router-dom";
 import { MovieContext } from "../../context";
+import "../../assets/styles/Actors.scss";
 
 const Actors = ({ movieId }) => {
   let [actor, setActor] = useState([]);
-  let {language, setLanguage} = useContext(MovieContext)
+  let { language, setLanguage } = useContext(MovieContext);
   async function getActor(key) {
     let res = await axios(
       `https://api.themoviedb.org/3/movie/${movieId}/credits?api_key=${key}&language=${language}`

@@ -5,6 +5,7 @@ import Box from "@mui/material/Box";
 import { Link } from "react-router-dom";
 import { IoBookmark } from "react-icons/io5";
 import { AiOutlineDelete } from "react-icons/ai";
+import "../../assets/styles/basket.scss"
 
 const Basket = () => {
   const { favorite, setFavorite } = useContext(MovieContext);

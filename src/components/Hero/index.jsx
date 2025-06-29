@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { api_key } from "../../assets/API";
 import axios from "axios";
+import "../../assets/styles/Hero.scss"
 
 const Hero = () => {
   const [movie, setMovie] = useState({});
